@@ -1,4 +1,4 @@
-# estagio-tech-01
+# estagio-tech-sass-01
 
 Exercício do Estágio Tech da Americanas - SASS
 
