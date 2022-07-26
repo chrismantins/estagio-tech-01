@@ -8,7 +8,7 @@ Exercício do Estágio Tech da Americanas
 2. Ter um arquivo partials com os estilos globais (resets) da aplicação;
 3. Fazer o nesting (aninhamento) para estilos com o mesmo pai, ou seja, com a mesma tag/classe englobando os estilos;
 
-Passos inciais
+## Passos inciais
 
 1. Clonar o projeto ou download dos arquivos;
 2. Caso não tenha o npm, instalar o node  (nodejs.org/en/download/)
