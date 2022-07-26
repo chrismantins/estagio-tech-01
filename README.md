@@ -1,6 +1,6 @@
 # estagio-tech-01
 
-Exercício do Estágio Tech da Americanas
+Exercício do Estágio Tech da Americanas - SASS
 
 ## O que deve ser feito?
 
