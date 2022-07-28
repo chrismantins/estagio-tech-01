@@ -1,0 +1,49 @@
+@mixin standard-h4 {
+    h4 {
+        font-size: 24px;
+        line-height: 26px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: colors.$third;
+      
+        padding: 20px;
+      }
+}
+
+@mixin standard-button {
+    button {
+        display: inline-block;
+        border: none;
+        border-radius: 10px;
+        background: colors.$primary;
+        min-width: 90px;
+        height: 40px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: colors.$white;
+        text-align: center;
+        padding: 12px 25px;
+        margin: 0;
+        cursor: pointer;
+        transition: background 250ms ease-in-out, 
+                    transform 150ms ease;
+        &:hover {
+            background: colors.$primary-claro;
+          }
+        &:focus {
+            outline: 4px solid colors.$primary-mais-claro;
+            outline-offset: -4px;
+          }
+      }
+}
+
+@mixin flex-align-center-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+@mixin flex-align-center-column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
